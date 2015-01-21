@@ -24,7 +24,7 @@ checkSiren = (robot, emergencyRegexp) ->
     })
     headline = doc.querySelector("#drudgeTopHeadlines tt center font").textContent.trim()
     if body.match(emergencyRegexp)
-      if lastHeadline != headline
+      if !inStateOfEmergency
         robot.messageRoom outputRoom, "#{headline} http://drudgereport.com/siren.gif"
       inStateOfEmergency = true
     else

@@ -1,6 +1,6 @@
 {
   "name": "hubot-drudgesiren",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Adam Wentz <awentz@theonion.com>",
   "description": "Checks if some serious shit is going down on drudgereport.com",
   "main": "./scripts/drudgesiren.coffee",
