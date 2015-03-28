@@ -1,7 +1,7 @@
 {
   "name": "hubot-drudgesiren",
   "version": "0.0.4",
-  "author": "Adam Wentz <awentz@theonion.com>",
+  "author": "Adam Wentz <adam@adamwentz.com>",
   "description": "Checks if some serious shit is going down on drudgereport.com",
   "main": "./scripts/drudgesiren.coffee",
   "repository": {
